@@ -1,11 +1,7 @@
 module.exports = {
     smtp: {
-        email: 'email',
-        host: 'smtp.gmail.com',
-        port: '587',
-        auth: {
-            user: 'login',
-            pass: 'password'
-        }
+        email: 'harald.bregu@starbook.co',
+        host: 'smtp-relay.gmail.com',
+        port: '587'
     }
 };

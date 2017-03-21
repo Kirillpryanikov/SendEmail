@@ -4,10 +4,6 @@ const config = require('./config');
 const options = {
     host: config.smtp.host,
     port: config.smtp.port,
-    auth: {
-        user: config.smtp.auth.user,
-        pass: config.smtp.auth.pass
-    }
 };
 
 // EmailObject attr:
